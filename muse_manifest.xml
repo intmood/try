@@ -1,173 +1,81 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="intmood.com\home" resolutions="1x" timestamp="1611499391339">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="intmood.com" resolutions="1x" timestamp="1611686710321">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="index.css" crc="220850510" ref="index"/>
-    <file name="nomq_index.css" crc="202348730" ref="index"/>
+    <file name="about.css" crc="168938575" ref="about"/>
+    <file name="nomq_about.css" crc="233179252" ref="about"/>
+    <file name="index.css" crc="424961681" ref="index"/>
+    <file name="master_a-master.css" crc="3913206143" ref="about:index"/>
+    <file name="nomq_preview_master_a-master.css" crc="3824530138" ref="about:index"/>
+  </folder>
+  <folder name="fonts">
+    <file name="introdemo-blackcaps-webfont.woff" crc="3863296737"/>
+    <file name="introdemo-blackcaps-webfont.eot" crc="4025472084"/>
+    <file name="introdemo-blackcaps-webfont.svg" crc="20298785"/>
+    <file name="balootamma2-extrabold.woff" crc="3945785669"/>
+    <file name="balootamma2-extrabold.eot" crc="4097087647"/>
+    <file name="balootamma2-extrabold.svg" crc="4117897153"/>
+    <file name="yuseimagic-regular-webfont.woff" crc="3925101459"/>
+    <file name="yuseimagic-regular-webfont.eot" crc="505707475"/>
+    <file name="yuseimagic-regular-webfont.svg" crc="3952313743"/>
+    <file name="andikanewbasic-regular-webfont.woff" crc="413428552"/>
+    <file name="andikanewbasic-regular-webfont.eot" crc="4283710815"/>
+    <file name="andikanewbasic-regular-webfont.svg" crc="381565419"/>
   </folder>
   <folder name="scripts">
-    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
-    <file name="museutils.js" crc="340535759" ref="index"/>
-    <file name="whatinput.js" crc="86476730" ref="index"/>
-    <file name="museconfig.js" crc="4286661555" ref="index"/>
-    <file name="jquery.musepolyfill.bgsize.js" crc="4260645839" ref="index"/>
-    <file name="jquery.watch.js" crc="51536988" ref="index"/>
-    <file name="jquery.museresponsive.js" crc="527716135" ref="index"/>
-    <file name="require.js" crc="7928878" ref="index"/>
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="about:index"/>
+    <file name="museutils.js" crc="340535759" ref="about:index"/>
+    <file name="whatinput.js" crc="86476730" ref="about:index"/>
+    <file name="museconfig.js" crc="4286661555" ref="about:index"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="4260645839" ref="about:index"/>
+    <file name="jquery.watch.js" crc="51536988" ref="about:index"/>
+    <file name="jquery.museresponsive.js" crc="527716135" ref="about"/>
+    <file name="require.js" crc="7928878" ref="about:index"/>
+    <file name="jquery.musemenu.js" crc="510910590" ref="about:index"/>
+    <file name="html5shiv.js" crc="4241844378" ref="about:index"/>
   </folder>
   <folder name="images">
-    <file name="intmood_logo_font.svg" crc="4078233137" ref="index"/>
-    <file name="intmood_logo_font_poster_u141.png" crc="148419908" ref="index"/>
-    <file name="u113-5.png" crc="15644046" ref="index"/>
-    <file name="girl_idea.svg" crc="21327397" ref="index"/>
-    <file name="girl_idea_poster_u128.png" crc="4102436936" ref="index"/>
-    <file name="girl thinking.svg" crc="4146496660" ref="index"/>
-    <file name="girl thinking_poster_u203.png" crc="301731674" ref="index"/>
-    <file name="u187-5.png" crc="333348032" ref="index"/>
-    <file name="u379-5.png" crc="3931858679" ref="index"/>
-    <file name="man_lost.svg" crc="3882032590" ref="index"/>
-    <file name="man_lost_poster_u371.png" crc="494307584" ref="index"/>
-    <file name="happy_girl.svg" crc="4100857530" ref="index"/>
-    <file name="happy_girl_poster_u410.png" crc="116513253" ref="index"/>
-    <file name="u397-5.png" crc="4113267369" ref="index"/>
-    <file name="u467-10.png" crc="200341587" ref="index"/>
-    <file name="analysts_working.svg" crc="4039037851" ref="index"/>
-    <file name="analysts_working_poster_u1183.png" crc="372203710" ref="index"/>
-    <file name="u495-4.png" crc="3765116824" ref="index"/>
-    <file name="u501-4.png" crc="61318909" ref="index"/>
-    <file name="u505-4.png" crc="272425680" ref="index"/>
-    <file name="u2272-4.png" crc="3758642667" ref="index"/>
-    <file name="u2271-4.png" crc="195514118" ref="index"/>
-    <file name="u537-4.png" crc="3899922272" ref="index"/>
-    <file name="u538-4.png" crc="4011650802" ref="index"/>
-    <file name="u528-4.png" crc="97352060" ref="index"/>
-    <file name="u529-4.png" crc="256573876" ref="index"/>
-    <file name="u113-52.png" crc="3988659347" ref="index"/>
-    <file name="u187-52.png" crc="3935554776" ref="index"/>
-    <file name="u379-52.png" crc="180824888" ref="index"/>
-    <file name="u397-52.png" crc="4047817299" ref="index"/>
-    <file name="u467-102.png" crc="4055366841" ref="index"/>
-    <file name="u495-42.png" crc="4242822007" ref="index"/>
-    <file name="u501-42.png" crc="61318909" ref="index"/>
-    <file name="u505-42.png" crc="272425680" ref="index"/>
-    <file name="u2272-42.png" crc="3758642667" ref="index"/>
-    <file name="u2271-42.png" crc="195514118" ref="index"/>
-    <file name="u537-42.png" crc="3899922272" ref="index"/>
-    <file name="u538-42.png" crc="4011650802" ref="index"/>
-    <file name="u528-42.png" crc="97352060" ref="index"/>
-    <file name="u529-42.png" crc="256573876" ref="index"/>
-    <file name="u113-53.png" crc="4017177295" ref="index"/>
-    <file name="u187-53.png" crc="4064218619" ref="index"/>
-    <file name="u379-53.png" crc="4257492432" ref="index"/>
-    <file name="u397-53.png" crc="4043966373" ref="index"/>
-    <file name="u467-103.png" crc="4081111132" ref="index"/>
-    <file name="u495-43.png" crc="103155188" ref="index"/>
-    <file name="u501-43.png" crc="61318909" ref="index"/>
-    <file name="u505-43.png" crc="272425680" ref="index"/>
-    <file name="u2272-43.png" crc="3758642667" ref="index"/>
-    <file name="u2271-43.png" crc="195514118" ref="index"/>
-    <file name="u537-43.png" crc="3899922272" ref="index"/>
-    <file name="u538-43.png" crc="4011650802" ref="index"/>
-    <file name="u528-43.png" crc="97352060" ref="index"/>
-    <file name="u529-43.png" crc="256573876" ref="index"/>
-    <file name="u113-54.png" crc="251401687" ref="index"/>
-    <file name="u187-54.png" crc="3848558584" ref="index"/>
-    <file name="u379-54.png" crc="66463073" ref="index"/>
-    <file name="u397-54.png" crc="4028910902" ref="index"/>
-    <file name="u467-104.png" crc="204553680" ref="index"/>
-    <file name="u495-44.png" crc="71991823" ref="index"/>
-    <file name="u501-44.png" crc="491585696" ref="index"/>
-    <file name="u505-44.png" crc="306382233" ref="index"/>
-    <file name="u2272-44.png" crc="262399684" ref="index"/>
-    <file name="u2271-44.png" crc="4169106445" ref="index"/>
-    <file name="u537-44.png" crc="3918827137" ref="index"/>
-    <file name="u538-44.png" crc="4081759393" ref="index"/>
-    <file name="u528-44.png" crc="4153162168" ref="index"/>
-    <file name="u529-44.png" crc="3925918758" ref="index"/>
-    <file name="u113-55.png" crc="4181191701" ref="index"/>
-    <file name="u187-55.png" crc="4165932142" ref="index"/>
-    <file name="u379-55.png" crc="8526518" ref="index"/>
-    <file name="u397-55.png" crc="3884085853" ref="index"/>
-    <file name="u467-105.png" crc="300046971" ref="index"/>
-    <file name="u495-45.png" crc="4161555409" ref="index"/>
-    <file name="u501-45.png" crc="491585696" ref="index"/>
-    <file name="u505-45.png" crc="306382233" ref="index"/>
-    <file name="u2272-45.png" crc="262399684" ref="index"/>
-    <file name="u2271-45.png" crc="4169106445" ref="index"/>
-    <file name="u537-45.png" crc="3918827137" ref="index"/>
-    <file name="u538-45.png" crc="4081759393" ref="index"/>
-    <file name="u528-45.png" crc="4153162168" ref="index"/>
-    <file name="u529-45.png" crc="3925918758" ref="index"/>
-    <file name="u113-56.png" crc="3813811877" ref="index"/>
-    <file name="u187-56.png" crc="3926972532" ref="index"/>
-    <file name="u379-56.png" crc="4125347918" ref="index"/>
-    <file name="u397-56.png" crc="4214522042" ref="index"/>
-    <file name="u467-106.png" crc="300046971" ref="index"/>
-    <file name="u495-46.png" crc="3889424026" ref="index"/>
-    <file name="u501-46.png" crc="4017351069" ref="index"/>
-    <file name="u505-46.png" crc="207351351" ref="index"/>
-    <file name="u2272-46.png" crc="3941323784" ref="index"/>
-    <file name="u2271-46.png" crc="132999360" ref="index"/>
-    <file name="u537-46.png" crc="59498782" ref="index"/>
-    <file name="u538-46.png" crc="4110767270" ref="index"/>
-    <file name="u528-46.png" crc="159753271" ref="index"/>
-    <file name="u529-46.png" crc="4206783391" ref="index"/>
-    <file name="u113-57.png" crc="3776947056" ref="index"/>
-    <file name="u187-57.png" crc="4221762868" ref="index"/>
-    <file name="u379-57.png" crc="3867150590" ref="index"/>
-    <file name="u397-57.png" crc="4067860902" ref="index"/>
-    <file name="u467-107.png" crc="300046971" ref="index"/>
-    <file name="u495-47.png" crc="187645371" ref="index"/>
-    <file name="u501-47.png" crc="3810695244" ref="index"/>
-    <file name="u505-47.png" crc="3858247889" ref="index"/>
-    <file name="u2272-47.png" crc="4219204617" ref="index"/>
-    <file name="u2271-47.png" crc="297757248" ref="index"/>
-    <file name="u537-47.png" crc="448549968" ref="index"/>
-    <file name="u538-47.png" crc="3844889602" ref="index"/>
-    <file name="u528-47.png" crc="137863620" ref="index"/>
-    <file name="u529-47.png" crc="342818943" ref="index"/>
-    <file name="u113-58.png" crc="442816470" ref="index"/>
-    <file name="u187-58.png" crc="4039354141" ref="index"/>
-    <file name="u379-58.png" crc="79072537" ref="index"/>
-    <file name="u397-58.png" crc="4056722402" ref="index"/>
-    <file name="u467-108.png" crc="88375410" ref="index"/>
-    <file name="u495-48.png" crc="3773549774" ref="index"/>
-    <file name="u501-48.png" crc="3810695244" ref="index"/>
-    <file name="u505-48.png" crc="3858247889" ref="index"/>
-    <file name="u2272-48.png" crc="4219204617" ref="index"/>
-    <file name="u2271-48.png" crc="297757248" ref="index"/>
-    <file name="u537-48.png" crc="448549968" ref="index"/>
-    <file name="u538-48.png" crc="3844889602" ref="index"/>
-    <file name="u528-48.png" crc="137863620" ref="index"/>
-    <file name="u529-48.png" crc="342818943" ref="index"/>
-    <file name="u113-59.png" crc="3907382314" ref="index"/>
-    <file name="u187-59.png" crc="463097831" ref="index"/>
-    <file name="u379-59.png" crc="183355104" ref="index"/>
-    <file name="u397-59.png" crc="175351139" ref="index"/>
-    <file name="u467-109.png" crc="3983187407" ref="index"/>
-    <file name="u495-49.png" crc="3880618996" ref="index"/>
-    <file name="u501-49.png" crc="3810695244" ref="index"/>
-    <file name="u505-49.png" crc="3858247889" ref="index"/>
-    <file name="u2272-49.png" crc="4219204617" ref="index"/>
-    <file name="u2271-49.png" crc="297757248" ref="index"/>
-    <file name="u537-49.png" crc="448549968" ref="index"/>
-    <file name="u538-49.png" crc="3844889602" ref="index"/>
-    <file name="u528-49.png" crc="137863620" ref="index"/>
-    <file name="u529-49.png" crc="342818943" ref="index"/>
-    <file name="u113-510.png" crc="3850612830" ref="index"/>
-    <file name="u187-510.png" crc="304161603" ref="index"/>
-    <file name="u379-510.png" crc="4034311316" ref="index"/>
-    <file name="u397-510.png" crc="292859597" ref="index"/>
-    <file name="u467-1010.png" crc="4182194371" ref="index"/>
-    <file name="u495-410.png" crc="3952665187" ref="index"/>
-    <file name="u501-410.png" crc="3810695244" ref="index"/>
-    <file name="u505-410.png" crc="3858247889" ref="index"/>
-    <file name="u2272-410.png" crc="4219204617" ref="index"/>
-    <file name="u2271-410.png" crc="297757248" ref="index"/>
-    <file name="u537-410.png" crc="448549968" ref="index"/>
-    <file name="u538-410.png" crc="3844889602" ref="index"/>
-    <file name="u528-410.png" crc="137863620" ref="index"/>
-    <file name="u529-410.png" crc="342818943" ref="index"/>
-    <file name="blank.gif" crc="4208392903" ref="index"/>
+    <file name="intmood_logo_font.svg" crc="4078233137" ref="about:index"/>
+    <file name="intmood_logo_font_poster_u6523.png" crc="4214774725" ref="about:index"/>
+    <file name="front cover.svg" crc="3771126028" ref="about"/>
+    <file name="front cover_poster_u4729.png" crc="290053849" ref="about"/>
+    <file name="girl thinking.svg" crc="4146496660" ref="about"/>
+    <file name="girl thinking_poster_u6507.png" crc="301731674" ref="about"/>
+    <file name="man_lost.svg" crc="3882032590" ref="about"/>
+    <file name="man_lost_poster_u6531.png" crc="494307584" ref="about"/>
+    <file name="happy_girl.svg" crc="4100857530" ref="about"/>
+    <file name="happy_girl_poster_u6515.png" crc="116513253" ref="about"/>
+    <file name="analysts working.svg" crc="225453076" ref="about"/>
+    <file name="analysts working_poster_u6499.png" crc="3926499504" ref="about"/>
+    <file name="u495-4.png" crc="3854187956" ref="about"/>
+    <file name="u113-4.png" crc="3781713937" ref="about"/>
+    <file name="u537-4.png" crc="4199168781" ref="about"/>
+    <file name="u528-4.png" crc="355150639" ref="about"/>
+    <file name="u505-4.png" crc="207351351" ref="about"/>
+    <file name="u2271-4.png" crc="132999360" ref="about"/>
+    <file name="u538-4.png" crc="4110767270" ref="about"/>
+    <file name="u529-4.png" crc="4206783391" ref="about"/>
+    <file name="u505-42.png" crc="3858247889" ref="about"/>
+    <file name="u2271-42.png" crc="297757248" ref="about"/>
+    <file name="u538-42.png" crc="3844889602" ref="about"/>
+    <file name="u529-42.png" crc="342818943" ref="about"/>
+    <file name="u505-43.png" crc="3858247889" ref="about"/>
+    <file name="u2271-43.png" crc="297757248" ref="about"/>
+    <file name="u538-43.png" crc="3844889602" ref="about"/>
+    <file name="u529-43.png" crc="342818943" ref="about"/>
+    <file name="u505-44.png" crc="3858247889" ref="about"/>
+    <file name="u2271-44.png" crc="297757248" ref="about"/>
+    <file name="u538-44.png" crc="3844889602" ref="about"/>
+    <file name="u529-44.png" crc="342818943" ref="about"/>
+    <file name="u505-45.png" crc="3858247889" ref="about"/>
+    <file name="u2271-45.png" crc="297757248" ref="about"/>
+    <file name="u538-45.png" crc="3844889602" ref="about"/>
+    <file name="u529-45.png" crc="342818943" ref="about"/>
+    <file name="u505-46.png" crc="3858247889" ref="about"/>
+    <file name="u2271-46.png" crc="297757248" ref="about"/>
+    <file name="u538-46.png" crc="3844889602" ref="about"/>
+    <file name="u529-46.png" crc="342818943" ref="about"/>
+    <file name="blank.gif" crc="4208392903" ref="about"/>
   </folder>
-  <file name="index.html" crc="58972591" seo="true" mt="1611499192388" redirect="true"/>
+  <file name="about.html" crc="4162361456" seo="true" mt="1611686471277" redirect="true"/>
+  <file name="index.html" crc="181327051" seo="true" mt="1611686480022" redirect="true"/>
 </manifest>
