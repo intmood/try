@@ -1,10 +1,10 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="intmood.com" resolutions="1x" timestamp="1611724641398">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="intmood.com" resolutions="1x" timestamp="1612252243488">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="about.css" crc="3945292179" ref="about"/>
-    <file name="nomq_about.css" crc="230793223" ref="about"/>
-    <file name="index.css" crc="424961681" ref="index"/>
-    <file name="master_a-master.css" crc="390276192" ref="about:index"/>
+    <file name="about.css" crc="349147630" ref="about"/>
+    <file name="nomq_about.css" crc="34924221" ref="about"/>
+    <file name="index.css" crc="3933486827" ref="index"/>
+    <file name="master_a-master.css" crc="529694869" ref="about:index"/>
     <file name="nomq_preview_master_a-master.css" crc="3824530138" ref="about:index"/>
   </folder>
   <folder name="fonts">
@@ -78,6 +78,6 @@
     <file name="arrow_poster_u7435.png" crc="4142030851" ref="about"/>
     <file name="analysts working_poster_u7383.png" crc="3947397142" ref="about"/>
   </folder>
-  <file name="about.html" crc="4163087252" seo="true" mt="1611724497970" redirect="true"/>
-  <file name="index.html" crc="181327051" seo="true" mt="1611686480022" redirect="true"/>
+  <file name="about.html" crc="370086789" seo="true" mt="1612240190947" redirect="true"/>
+  <file name="index.html" crc="3989624187" seo="true" mt="1612252175251" redirect="true"/>
 </manifest>
